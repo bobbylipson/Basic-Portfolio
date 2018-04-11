@@ -70,6 +70,7 @@ nav ul li {
 .main {
     display: inline-block;
     width: 700px;
+    height: 1200px;
     margin: 40px;
     padding: 40px;
     background-color: #ffffff;
@@ -102,10 +103,8 @@ img.headshot {
     position: relative;
     width: 270px;
     height: 200px;
-}
-
-.porfolio-item:nth-child(even) {
     margin-left: 25px;
+    border: 1px solid black;
 }
 
 .item-name {
@@ -116,6 +115,9 @@ img.headshot {
     padding: 1em;
     color: #ffffff;
     z-index: 1000;
+    margin-right:20px;
+    margin-left: 175px;
+    border: 1px solid black;
 }
 
 .contact {
